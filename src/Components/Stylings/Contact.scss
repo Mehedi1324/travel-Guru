@@ -1,0 +1,117 @@
+// Body____________
+
+.contact {
+  margin-top: 50px;
+  .contact__row {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    .info {
+      display: flex;
+      justify-content: space-between;
+    }
+    .col {
+      text-align: center;
+      margin-top: 15px;
+      .address {
+        width: 93%;
+        margin: auto;
+        padding-top: 20px !important;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0px 0px 14px -8px black;
+      }
+      .map {
+        color: #8b3eea;
+      }
+      .map:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+// Message_______________
+.msg__form {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-left: 0px !important;
+    margin: 10px;
+    background-color: #f3f6fd;
+    border-radius: 5px;
+    border: 1px solid white;
+  }
+}
+.form {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px -5px !important;
+  .name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    input {
+      width: 100% !important;
+      padding: 22px !important;
+      margin: 10px;
+      background-color: #f3f6fd;
+      border-radius: 5px;
+      border: 1px solid white;
+    }
+  }
+  .comment {
+    input {
+      height: 150px;
+    }
+  }
+  .button {
+    input {
+      margin-top: 10px;
+      background-color: #8b3eea;
+      padding: 5px 15px !important;
+      color: white;
+      border-radius: 5px;
+      border: 2px solid white;
+      transition: 500ms;
+    }
+    input:hover {
+      background-color: black;
+      cursor: pointer;
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .form {
+    width: 80% !important;
+  }
+}
+@media screen and (max-width: 740px) {
+  .form {
+    width: 80% !important;
+    .name {
+      display: flex !important;
+      overflow: hidden;
+      flex-direction: column !important;
+      input {
+        width: 100% !important;
+        margin-left: 0px !important;
+      }
+      .button {
+        input {
+          width: 100%;
+          margin-left: 0px;
+        }
+      }
+      textarea {
+        margin-left: 0px;
+      }
+    }
+  }
+}

@@ -1,0 +1,270 @@
+// Banner___________
+
+.banner {
+  background-image: url('../../../public/image/about.png');
+  padding: 150px 0px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  h2 {
+    font-size: 40px !important;
+    margin: auto;
+    width: 40%;
+    font-weight: 600;
+    color: rgb(251, 246, 224);
+  }
+}
+
+// About Us__________
+
+.description {
+  width: 80%;
+  margin: auto;
+  padding: 7% 0px;
+  button {
+    padding: 5px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: transform 500ms;
+    background-color: aqua;
+
+    border: 2px solid rgb(205, 205, 174);
+    color: black;
+  }
+  button:hover {
+    transform: scale(1.1);
+  }
+  img {
+    width: 100%;
+  }
+  .p {
+    padding: 2% 0px;
+  }
+  h4 {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  button {
+    margin-bottom: 5%;
+  }
+}
+.add {
+  width: 95%;
+  margin: auto;
+  .add__img {
+    height: 80%;
+    width: 100%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.cntnr {
+  position: relative;
+}
+.cntnt {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  a {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+  }
+}
+p {
+  color: rgb(77, 76, 76);
+}
+.service {
+  width: 80%;
+  margin: auto;
+
+  margin-bottom: 50px;
+
+  a {
+    padding: 10px 0px;
+    text-decoration: none;
+    color: rgb(47, 11, 164);
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .cart {
+    background-color: white;
+    box-shadow: 0px 0px 13px -3px rgb(126, 126, 126);
+    margin-bottom: 20px;
+    height: 95%;
+    padding: 10px 15px;
+    border-radius: 15px;
+  }
+}
+
+// Banner and Servay____________
+
+.bnr {
+  text-align: center;
+  background-image: url('../../../public/image/counter_bg.png');
+  background-size: cover;
+  padding: 10%;
+  h2 {
+    color: white;
+  }
+  p {
+    color: white;
+  }
+}
+
+// Counter____________
+
+.counting {
+  width: 80%;
+  margin: auto;
+  z-index: 1;
+}
+.row2 {
+  width: 100%;
+  margin-top: -50px;
+}
+.col {
+  padding: 0px;
+  height: 100%;
+}
+.count {
+  text-align: center;
+  padding: 7%;
+  height: 100%;
+  width: 100%;
+
+  background-color: white;
+  box-shadow: 0px 0px 6px -3px rgb(66, 65, 65);
+  img {
+    width: 19%;
+    margin: 5px;
+  }
+  .p {
+    color: rgb(159, 0, 167);
+    font-weight: 500;
+    font-size: 30px;
+  }
+  p {
+    font-weight: 500;
+  }
+}
+
+// Review____________
+
+.customer__review {
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 100px;
+  text-align: center;
+  h1 {
+    font-size: 30px;
+  }
+  h3 {
+    border-top: 2px solid rgb(138, 87, 202);
+    margin-bottom: 25px !important;
+    margin-top: 1% !important;
+    width: 15%;
+    margin: auto;
+  }
+  .review__cards {
+    box-shadow: 0px 0px 9px -3px black;
+    padding: 4%;
+    margin: 2%;
+    margin-top: 9%;
+    border-radius: 20px;
+  }
+  .frst__row {
+    display: flex;
+    justify-content: space-between;
+    p {
+      font-size: 14px;
+    }
+  }
+  .rating {
+    svg {
+      color: #ff6d00;
+    }
+  }
+  .profile {
+    margin-top: -15%;
+
+    h2 {
+      font-size: 18px;
+      margin-bottom: -4px;
+      margin-top: 10px;
+    }
+  }
+  .p {
+    color: rgb(124, 124, 124);
+  }
+}
+
+// Subscribe _______________________
+
+.sub {
+  // margin-top: 5%;
+  padding-top: 3%;
+  padding-bottom: 4%;
+  background-color: #f3f6fd;
+  align-items: center;
+  .subscribe {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+  }
+  .col1 {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    img {
+      width: 15%;
+      margin-right: 30px;
+      height: 10%;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+    h1 {
+      font-size: 27px;
+      font-weight: 600;
+    }
+  }
+  .col2 {
+    input {
+      border: 2px solid rgb(227, 225, 225);
+    }
+    .inp__box {
+      width: 80%;
+      height: 40px;
+      padding-right: 22%;
+    }
+    .sub__btn {
+      position: relative;
+    }
+    .inp__submit {
+      width: 100px;
+      height: 40px;
+      right: 0%;
+      position: absolute;
+      background-color: #8b3eea;
+      color: white;
+      font-weight: 500;
+      transition: background-color 300ms;
+    }
+    .inp__submit:hover {
+      background-color: #000000;
+    }
+  }
+}

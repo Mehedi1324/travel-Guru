@@ -5,7 +5,7 @@ import Resort from './Resort';
 const Residence = () => {
   const [places, setPlaces] = useState([]);
   useEffect(() => {
-    fetch('../../../public/residence.json')
+    fetch('./residence.json')
       .then((res) => res.json())
       .then((data) => setPlaces(data));
   }, []);

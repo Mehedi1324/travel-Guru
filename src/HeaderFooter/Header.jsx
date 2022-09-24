@@ -1,11 +1,12 @@
 import '../HeaderFooter/Header.scss';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import useFirebase from '../Firebase/useFirebase';
 import Login from '../SIgn In/Login';
 const Header = () => {
   const { user, handleLogout } = useFirebase();
   const [navbar, setNavbar] = useState(false);
+  const [toggoleActive, setToggleActive] = useState(false);
   const stickyNav = () => {
     if (window.scrollY >= 400) {
       setNavbar(true);
@@ -14,26 +15,57 @@ const Header = () => {
     }
   };
   window.addEventListener('scroll', stickyNav);
-
+  const handleToggle = () => {
+    setToggleActive(!toggoleActive);
+  };
   return (
     <div className="w-100 header">
       {/*_______________ Navbar_________________ */}
-      <nav className={navbar ? 'navbar active' : 'navbar'}>
+      <nav className={navbar ? 'navbar nav__active ' : 'navbar'}>
         <div className="nav__logo">
-          <Link to="/">
+          <NavLink onClick={() => setToggleActive(false)} to="/">
             <img src="./image/logo.png" alt="logo" />
-          </Link>
+          </NavLink>
         </div>
-
-        <div className="hdr__link">
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
-          <Link to="/booking">Flight</Link>
-          {user.email ? (
-            <button onClick={handleLogout}>Log Out</button>
-          ) : (
-            <Login />
-          )}
+        <div onClick={handleToggle} className="toggle__btn">
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </div>
+        <div
+          className={toggoleActive ? 'hdr__link toggle__active' : 'hdr__link'}
+        >
+          <span className="link__item">
+            <NavLink
+              onClick={() => setToggleActive(!toggoleActive)}
+              to="/about"
+            >
+              About
+            </NavLink>
+          </span>
+          <span className="link__item">
+            <NavLink
+              onClick={() => setToggleActive(!toggoleActive)}
+              to="/contact"
+            >
+              Contact
+            </NavLink>
+          </span>
+          <span className="link__item">
+            <NavLink
+              onClick={() => setToggleActive(!toggoleActive)}
+              to="/booking"
+            >
+              Flight
+            </NavLink>
+          </span>
+          <span className="link__item">
+            {user.email ? (
+              <button onClick={handleLogout}>Log Out</button>
+            ) : (
+              <Login />
+            )}
+          </span>
         </div>
       </nav>
     </div>

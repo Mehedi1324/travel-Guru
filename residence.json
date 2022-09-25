@@ -1,0 +1,66 @@
+[
+  {
+    "id": 0,
+    "title": "Kantua hotel, Thailand",
+    "image": "./image/h0.png",
+    "price": 99.0,
+    "category": "space",
+    "rating": 4.5
+  },
+  {
+    "id": 1,
+    "title": "Hotel paradise international",
+    "image": "./image/h1.png",
+    "price": 99.0,
+    "category": "resort",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "title": "Hotel kualalampur",
+    "image": "./image/h2.png",
+    "price": 99.0,
+    "category": "resort",
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "title": "Hotel deluxe",
+    "image": "./image/h3.png",
+    "price": 99.0,
+    "category": "space",
+    "rating": 4.5
+  },
+  {
+    "id": 4,
+    "title": "Hotel rajavumi",
+    "image": "./image/h4.png",
+    "price": 99.0,
+    "category": "space",
+    "rating": 4.5
+  },
+  {
+    "id": 5,
+    "title": "Thailand grand suit",
+    "image": "./image/h5.png",
+    "price": 99.0,
+    "category": "space",
+    "rating": 4.5
+  },
+  {
+    "id": 6,
+    "title": "Zefi resort and spa",
+    "image": "./image/h6.png",
+    "price": 99.0,
+    "category": "resort",
+    "rating": 4.5
+  },
+  {
+    "id": 7,
+    "title": "Manila international resort",
+    "image": "./image/h7.png",
+    "price": 99.0,
+    "category": "resort",
+    "rating": 4.5
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/travel-guru/static/css/main.aee97b71.css",
+    "main.js": "/travel-guru/static/js/main.7121d86d.js",
+    "static/media/cox.png": "/travel-guru/static/media/cox.aaab8179ddf21541e7ff.png",
+    "static/media/counter_bg.png": "/travel-guru/static/media/counter_bg.0d82a9ec0460fcb4def6.png",
+    "static/media/adventure.png": "/travel-guru/static/media/adventure.6a89d18c4fe143b6f04e.png",
+    "static/media/about.png": "/travel-guru/static/media/about.7250b13c250f5e776b98.png",
+    "static/media/slick.svg": "/travel-guru/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/travel-guru/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/travel-guru/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/travel-guru/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/travel-guru/index.html",
+    "main.aee97b71.css.map": "/travel-guru/static/css/main.aee97b71.css.map",
+    "main.7121d86d.js.map": "/travel-guru/static/js/main.7121d86d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aee97b71.css",
+    "static/js/main.7121d86d.js"
+  ]
+}
